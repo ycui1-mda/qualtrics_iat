@@ -1,0 +1,451 @@
+{
+    "SurveyEntry": {
+        "SurveyID": "SV_8ksFYwjLJaQ7JQO",
+        "SurveyName": "Qualtrics IAT Experiment",
+        "SurveyDescription": null,
+        "SurveyOwnerID": "UR_8B3DdCzUvOPo9Gl",
+        "SurveyBrandID": "mdanderson",
+        "DivisionID": null,
+        "SurveyLanguage": "EN",
+        "SurveyActiveResponseSet": "RS_6ihfhyUzmU1NnWm",
+        "SurveyStatus": "Active",
+        "SurveyStartDate": "0000-00-00 00:00:00",
+        "SurveyExpirationDate": "0000-00-00 00:00:00",
+        "SurveyCreationDate": "2021-07-04 09:52:59",
+        "CreatorID": "UR_8B3DdCzUvOPo9Gl",
+        "LastModified": "2021-07-30 14:18:06",
+        "LastAccessed": "0000-00-00 00:00:00",
+        "LastActivated": "2021-07-30 14:17:26",
+        "Deleted": null
+    },
+    "SurveyElements": [
+        {
+            "SurveyID": "SV_8ksFYwjLJaQ7JQO",
+            "Element": "BL",
+            "PrimaryAttribute": "Survey Blocks",
+            "SecondaryAttribute": null,
+            "TertiaryAttribute": null,
+            "Payload": {
+                "0": {
+                    "Type": "Trash",
+                    "Description": "Trash \/ Unused Questions",
+                    "ID": "BL_7OhqrcnPDK7JCbH",
+                    "BlockElements": [],
+                    "Options": {
+                        "BlockLocking": "false",
+                        "RandomizeQuestions": "false",
+                        "BlockVisibility": "Expanded"
+                    }
+                },
+                "2": {
+                    "Type": "Standard",
+                    "SubType": "",
+                    "Description": "The IAT Block",
+                    "ID": "BL_bBDoVlkl6RhFIgZ",
+                    "BlockElements": [
+                        {
+                            "Type": "Page Break"
+                        },
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID1310629872"
+                        }
+                    ],
+                    "Options": {
+                        "BlockLocking": "false",
+                        "RandomizeQuestions": "false",
+                        "BlockVisibility": "Expanded"
+                    }
+                }
+            }
+        },
+        {
+            "SurveyID": "SV_8ksFYwjLJaQ7JQO",
+            "Element": "FL",
+            "PrimaryAttribute": "Survey Flow",
+            "SecondaryAttribute": null,
+            "TertiaryAttribute": null,
+            "Payload": {
+                "Type": "Root",
+                "FlowID": "FL_1310629873",
+                "Flow": [
+                    {
+                        "Type": "EmbeddedData",
+                        "FlowID": "FL_1310629878",
+                        "EmbeddedData": [
+                            {
+                                "Description": "block1Responses",
+                                "Type": "Recipient",
+                                "Field": "block1Responses",
+                                "VariableType": "String",
+                                "DataVisibility": [],
+                                "AnalyzeText": false
+                            },
+                            {
+                                "Description": "block2Responses",
+                                "Type": "Recipient",
+                                "Field": "block2Responses",
+                                "VariableType": "String",
+                                "DataVisibility": [],
+                                "AnalyzeText": false
+                            },
+                            {
+                                "Description": "block3Responses",
+                                "Type": "Recipient",
+                                "Field": "block3Responses",
+                                "VariableType": "String",
+                                "DataVisibility": [],
+                                "AnalyzeText": false
+                            },
+                            {
+                                "Description": "block4Responses",
+                                "Type": "Recipient",
+                                "Field": "block4Responses",
+                                "VariableType": "String",
+                                "DataVisibility": [],
+                                "AnalyzeText": false
+                            },
+                            {
+                                "Description": "block5Responses",
+                                "Type": "Recipient",
+                                "Field": "block5Responses",
+                                "VariableType": "String",
+                                "DataVisibility": [],
+                                "AnalyzeText": false
+                            },
+                            {
+                                "Description": "block6Responses",
+                                "Type": "Recipient",
+                                "Field": "block6Responses",
+                                "VariableType": "String",
+                                "DataVisibility": [],
+                                "AnalyzeText": false
+                            },
+                            {
+                                "Description": "block7Responses",
+                                "Type": "Recipient",
+                                "Field": "block7Responses",
+                                "VariableType": "String",
+                                "DataVisibility": [],
+                                "AnalyzeText": false
+                            },
+                            {
+                                "Description": "block1Trials",
+                                "Type": "Recipient",
+                                "Field": "block1Trials",
+                                "VariableType": "String",
+                                "DataVisibility": [],
+                                "AnalyzeText": false
+                            },
+                            {
+                                "Description": "block2Trials",
+                                "Type": "Recipient",
+                                "Field": "block2Trials",
+                                "VariableType": "String",
+                                "DataVisibility": [],
+                                "AnalyzeText": false
+                            },
+                            {
+                                "Description": "block3Trials",
+                                "Type": "Recipient",
+                                "Field": "block3Trials",
+                                "VariableType": "String",
+                                "DataVisibility": [],
+                                "AnalyzeText": false
+                            },
+                            {
+                                "Description": "block4Trials",
+                                "Type": "Recipient",
+                                "Field": "block4Trials",
+                                "VariableType": "String",
+                                "DataVisibility": [],
+                                "AnalyzeText": false
+                            },
+                            {
+                                "Description": "block5Trials",
+                                "Type": "Recipient",
+                                "Field": "block5Trials",
+                                "VariableType": "String",
+                                "DataVisibility": [],
+                                "AnalyzeText": false
+                            },
+                            {
+                                "Description": "block6Trials",
+                                "Type": "Recipient",
+                                "Field": "block6Trials",
+                                "VariableType": "String",
+                                "DataVisibility": [],
+                                "AnalyzeText": false
+                            },
+                            {
+                                "Description": "block7Trials",
+                                "Type": "Recipient",
+                                "Field": "block7Trials",
+                                "VariableType": "String",
+                                "DataVisibility": [],
+                                "AnalyzeText": false
+                            },
+                            {
+                                "Description": "blockConditions",
+                                "Type": "Recipient",
+                                "Field": "blockConditions",
+                                "VariableType": "String",
+                                "DataVisibility": [],
+                                "AnalyzeText": false
+                            }
+                        ]
+                    },
+                    {
+                        "Type": "BlockRandomizer",
+                        "FlowID": "FL_1310629879",
+                        "SubSet": 1,
+                        "EvenPresentation": true,
+                        "Flow": [
+                            {
+                                "Type": "EmbeddedData",
+                                "FlowID": "FL_1310629880",
+                                "EmbeddedData": [
+                                    {
+                                        "Description": "firstCombination",
+                                        "Type": "Custom",
+                                        "Field": "firstCombination",
+                                        "VariableType": "String",
+                                        "DataVisibility": [],
+                                        "AnalyzeText": false,
+                                        "Value": "p+"
+                                    }
+                                ]
+                            },
+                            {
+                                "Type": "EmbeddedData",
+                                "FlowID": "FL_1310629881",
+                                "EmbeddedData": [
+                                    {
+                                        "Description": "firstCombination",
+                                        "Type": "Custom",
+                                        "Field": "firstCombination",
+                                        "VariableType": "String",
+                                        "DataVisibility": [],
+                                        "AnalyzeText": false,
+                                        "Value": "p-"
+                                    }
+                                ]
+                            },
+                            {
+                                "Type": "EmbeddedData",
+                                "FlowID": "FL_1310629882",
+                                "EmbeddedData": [
+                                    {
+                                        "Description": "firstCombination",
+                                        "Type": "Custom",
+                                        "Field": "firstCombination",
+                                        "VariableType": "String",
+                                        "DataVisibility": [],
+                                        "AnalyzeText": false,
+                                        "Value": "n+"
+                                    }
+                                ]
+                            },
+                            {
+                                "Type": "EmbeddedData",
+                                "FlowID": "FL_1310629883",
+                                "EmbeddedData": [
+                                    {
+                                        "Description": "firstCombination",
+                                        "Type": "Custom",
+                                        "Field": "firstCombination",
+                                        "VariableType": "String",
+                                        "DataVisibility": [],
+                                        "AnalyzeText": false,
+                                        "Value": "n-"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "Type": "Standard",
+                        "ID": "BL_bBDoVlkl6RhFIgZ",
+                        "FlowID": "FL_1310629875",
+                        "Autofill": []
+                    }
+                ],
+                "Properties": {
+                    "Count": 1310629917,
+                    "RemovedFieldsets": []
+                }
+            }
+        },
+        {
+            "SurveyID": "SV_8ksFYwjLJaQ7JQO",
+            "Element": "RS",
+            "PrimaryAttribute": "RS_6ihfhyUzmU1NnWm",
+            "SecondaryAttribute": null,
+            "TertiaryAttribute": null,
+            "Payload": null
+        },
+        {
+            "SurveyID": "SV_8ksFYwjLJaQ7JQO",
+            "Element": "SO",
+            "PrimaryAttribute": "Survey Options",
+            "SecondaryAttribute": null,
+            "TertiaryAttribute": null,
+            "Payload": {
+                "BackButton": "false",
+                "SaveAndContinue": "true",
+                "SurveyProtection": "PublicSurvey",
+                "BallotBoxStuffingPrevention": "false",
+                "NoIndex": "Yes",
+                "SecureResponseFiles": "true",
+                "SurveyExpiration": "None",
+                "SurveyTermination": "DefaultMessage",
+                "Header": "",
+                "Footer": "",
+                "ProgressBarDisplay": "None",
+                "PartialData": "+1 week",
+                "ValidationMessage": null,
+                "PreviousButton": " \u2190 ",
+                "NextButton": " \u2192 ",
+                "SurveyTitle": "Online Survey Software | Qualtrics Survey Solutions",
+                "SkinLibrary": "mdanderson",
+                "SkinType": "templated",
+                "Skin": {
+                    "brandingId": null,
+                    "templateId": "*base",
+                    "overrides": null
+                },
+                "NewScoring": 1,
+                "CustomStyles": [],
+                "libraryId": "",
+                "nextButtonMid": "",
+                "previousButtonMid": "",
+                "headerMid": "",
+                "footerMid": "",
+                "QuestionsPerPage": "",
+                "PageTransition": "None",
+                "Autofocus": "false",
+                "Autoadvance": "false",
+                "AutoadvancePages": "false",
+                "HighlightQuestions": "off",
+                "ProtectSelectionIds": true,
+                "SurveyName": "Qualtrics IAT Experiment",
+                "EOSMessage": null,
+                "ShowExportTags": "false",
+                "CollectGeoLocation": "false",
+                "SurveyMetaDescription": "The most powerful, simple and trusted way to gather experience data. Start your journey to experience management and try a free account today.",
+                "PasswordProtection": "No",
+                "AnonymizeResponse": "No",
+                "RefererCheck": "No",
+                "BallotBoxStuffingPreventionBehavior": null,
+                "BallotBoxStuffingPreventionMessage": null,
+                "BallotBoxStuffingPreventionMessageLibrary": null,
+                "BallotBoxStuffingPreventionURL": null,
+                "RecaptchaV3": "false",
+                "ConfirmStart": false,
+                "AutoConfirmStart": false,
+                "RelevantID": "false",
+                "RelevantIDLockoutPeriod": "+30 days",
+                "UseCustomSurveyLinkCompletedMessage": null,
+                "SurveyLinkCompletedMessage": null,
+                "SurveyLinkCompletedMessageLibrary": null,
+                "ResponseSummary": "No",
+                "EOSMessageLibrary": null,
+                "EOSRedirectURL": null,
+                "EmailThankYou": "false",
+                "ThankYouEmailMessageLibrary": null,
+                "ThankYouEmailMessage": null,
+                "ValidateMessage": "false",
+                "ValidationMessageLibrary": null,
+                "InactiveSurvey": null,
+                "PartialDeletion": null,
+                "PartialDataCloseAfter": "LastActivity",
+                "InactiveMessageLibrary": null,
+                "InactiveMessage": null,
+                "AvailableLanguages": {
+                    "EN": []
+                }
+            }
+        },
+        {
+            "SurveyID": "SV_8ksFYwjLJaQ7JQO",
+            "Element": "SCO",
+            "PrimaryAttribute": "Scoring",
+            "SecondaryAttribute": null,
+            "TertiaryAttribute": null,
+            "Payload": {
+                "ScoringCategories": [],
+                "ScoringCategoryGroups": [],
+                "ScoringSummaryCategory": null,
+                "ScoringSummaryAfterQuestions": 0,
+                "ScoringSummaryAfterSurvey": 0,
+                "DefaultScoringCategory": null,
+                "AutoScoringCategory": null
+            }
+        },
+        {
+            "SurveyID": "SV_8ksFYwjLJaQ7JQO",
+            "Element": "PROJ",
+            "PrimaryAttribute": "CORE",
+            "SecondaryAttribute": null,
+            "TertiaryAttribute": "1.1.0",
+            "Payload": {
+                "ProjectCategory": "CORE",
+                "SchemaVersion": "1.1.0"
+            }
+        },
+        {
+            "SurveyID": "SV_8ksFYwjLJaQ7JQO",
+            "Element": "STAT",
+            "PrimaryAttribute": "Survey Statistics",
+            "SecondaryAttribute": null,
+            "TertiaryAttribute": null,
+            "Payload": {
+                "MobileCompatible": true,
+                "ID": "Survey Statistics"
+            }
+        },
+        {
+            "SurveyID": "SV_8ksFYwjLJaQ7JQO",
+            "Element": "QC",
+            "PrimaryAttribute": "Survey Question Count",
+            "SecondaryAttribute": "27",
+            "TertiaryAttribute": null,
+            "Payload": null
+        },
+        {
+            "SurveyID": "SV_8ksFYwjLJaQ7JQO",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID1310629872",
+            "SecondaryAttribute": "Click to write the question text",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "Click to write the question text",
+                "QuestionJS": "let task = {\n            overallInstruction: ['<p>In this task, you will be presented with a set of words to classify into groups.<br \/><br \/>The task requires that you classify the words as quickly as you can while making as few mistakes as possible.<br \/><br \/>This task takes about 5 minutes.<br \/><br \/><\/p>', \"<div>In this task, you'll need to press F and J keys on your keyboard to answer the questions.<\/div><div><br \/>When the word matches the label on the left side, press <strong>F<\/strong> key.<br \/><br \/>When the word matches the label on the right side, press <strong>J<\/strong> key.<\/div>\"],\n            mobileOverallInstruction: ['<p>In this task, you will be presented with a set of words to classify into groups.<br \/><br \/>The task requires that you classify the words as quickly as you can while making as few mistakes as possible.<br \/><br \/>This task takes about 5 minutes.<br \/><br \/><\/p>', \"<div>In this task, you'll need to tap the touch screen to answer the questions.<br \/><br \/>When the word matches the label on the left side, tap the <strong>left<\/strong> button.<br \/><br \/>When the word matches the label on the right side, tap the <strong>right<\/strong> button.<\/div>\", \"If you're using a mobile device, please hold your device vertically and scroll the page to ensure that the entire box is visible on the screen.<br \/><br \/>Note: Don't pull down your page too fast, which may accidentally refresh the page and you'll lose your progress.\"],\n            reminderInstruction: [\"<ul><li style='text-align: left;'>Place your left index finger on the F key and your right index finger on the J key on your keyboard.<\/li><li style='text-align: left;'>Press <strong>the F key with your left index finger<\/strong> if the word fits the category on the left.<\/li><li style='text-align: left;'>Press <strong>the J key with your right index finger<\/strong> if the word fits the category on the right.<\/li><li style='text-align: left;'>If you make a mistake, you will see an error message, and please correct your answer by pressing the other key<\/li><\/ul>\", \"<div style='text-align: center;'><strong>Keep in mind the following points<\/strong><\/div><ol><li style='text-align: left;'>Keep your index fingers on the <strong>F and J keys<\/strong> to enable fast response.<\/li><li style='text-align: left;'>Two labels at the top will tell you which words go with each key.<\/li><li style='text-align: left;'>Each word has a correct classification. Most of these are easy.<\/li><li style='text-align: left;'>The test gives no results if you go slow. Please try to <strong>go as fast as possible!<\/strong><\/li><li style='text-align: left;'><strong>Expect to make a few mistakes<\/strong> because of going fast. That's OKAY!<\/li><\/ol>\"],\n            mobileReminderInstruction: [\"<ul><li style='text-align: left;'>Place your device on a desk such that you can tap the screen with your index fingers very quickly.<\/li><li style='text-align: left;'>Press <strong>the left button with your left index finger<\/strong> if the word fits the category on the left.<\/li><li style='text-align: left;'>Press <strong>the right button with your right index finger<\/strong> if the word fits the category on the right.<\/li><li style='text-align: left;'>If you make a mistake, you will see an error message, and please correct your answer by pressing the other button<\/li><\/ul>\", \"<div style='text-align: center;'><strong>Keep in mind the following points<\/strong><\/div><ol><li style='text-align: left;'>Position your device properly to enable fast response.<\/li><li style='text-align: left;'>Two buttons at the bottom will tell you which words go with each button.<\/li><li style='text-align: left;'>Each word has a correct classification. Most of these are easy.<\/li><li style='text-align: left;'>The test gives no results if you go slow. Please try to <strong>go as fast as possible!<\/strong><\/li><li style='text-align: left;'><strong>Expect to make a few mistakes<\/strong> because of going fast. That's OKAY!<\/li><\/ol>\"],\n            endingMessage: \"<p style='color: darkgreen'><br \/><br \/>You have completed this task. <br \/><br \/>Thank you for your time.<br \/><br \/><\/p>\",\n            stimulusLabels: {'p': 'Flower', 'n': 'Insect', '+': 'Pleasant', '-': 'Unpleasant'},\n            oppositeStimulusLabels: {'p': 'Insect', 'n': 'Flower', '+': 'Unpleasant', '-': 'Pleasant'},\n            stimulusSources: {\"p\": ['Orchid', 'Tulip', 'Rose', 'Daffodil', 'Daisy', 'Lilac', 'Lily'],\"n\": ['Wasp', 'Flea', 'Roach', 'Centipede', 'Moth', 'Bedbug', 'Gnat'],\"+\": ['Joy', 'Happy', 'Laughter', 'Love', 'Friend', 'Pleasure', 'Peace', 'Wonderful'],\"-\": ['Evil', 'Agony', 'Awful', 'Nasty', 'Terrible', 'Horrible', 'Failure', 'War']},\n            attributeStimulusType: {'name': 'words', 'media': 'text'},\n            targetStimulusType: {'name': 'words', 'media': 'text'},\n            blockTrialNumbers: [20, 20, 20, 40, 20, 20, 40],\n            leftKey: {'code': 'KeyF', 'name': 'F'},\n            rightKey: {'code': 'KeyJ', 'name': 'J'},\n            advanceKey: {'code': 'Space', 'name': 'Space'},\n            attributeLabelColor: '#003B00',\n            attributeWordColor: '#003B00',\n            targetLabelColor: '#ffa500',\n            targetWordColor: '#ffa500',\n            showExamples: false,\n            exampleDisplayTime: 1500,\n            exampleInstruction: ['<br \/><br \/><br \/><p>The following is the list of category labels for this study: <strong>Flower<\/strong>, <strong>Insect<\/strong>, <strong>Pleasant<\/strong>, and <strong>Unpleasant<\/strong>.<br \/><br \/>You will now see examples for each category. The words will be presented, with the categories shown at the top of the screen.', '<br \/><br \/><br \/>Each word will be shown briefly.<br \/><br \/>At this stage, you do not need to make any response.<br \/><br \/>Just look at the word carefully.<\/p>'],\n            interTrialInterval: 250,\n            minimumAllowedReactionTime: 250,\n            minimumPreloadImagePercent: 50,\n            interTrialResponseSeparator: '_',\n            requiresCorrection: true,\n            tooFastResponseErrorMessage: 'Too fast! Please choose your answer carefully.',\n            blockConditions: [],\n            studyName: 'iat',\n\t        switchAttribute: false,\n\t        automaticResponsesDelay: 0\n        };\n\/* When you set a value larger than the minimally allowed reaction time, the program will enter correct responses\nfor you at the specified delay;\n* *\/\nlet boundingBox;\nlet boundingBoxAspectRatio;\nlet instructionElement;\nlet actionButton;\nlet warningElement;\nlet stimulusContainer;\nlet stimulusContainerPct = 95;\nlet heightRatio = 0.75;\nlet buttons;\nlet fixationElement;\nlet textElement;\nlet imageElement;\nlet errorElement;\nlet leftButtonElement;\nlet rightButtonElement;\nlet stimulusFlags = {};\nlet currentBlock = {\n    condition: \"\",\n    instruction: \"\",\n    trials: [],\n    loadedImages: new Set(),\n    imageSources: new Set()\n};\nlet currentTrial = {};\nlet currentTrialNumber = 0;\nlet currentBlockNumber = 0;\nlet exampleTrials = [];\nlet isMobile = false;\nlet pagedInstructions = null;\nlet pagedExampleInstructions = null;\nlet pagedReminderInstructions = null;\n\n\nQualtrics.SurveyEngine.addOnload(function()\n{\n    setBasicStyle(this);\n    getDeviceInformation();\n    randomizeBlockConditions();\n    prepareStimuliFlags();\n    createElements();\n    addListeners();\n    if (task.overallInstruction.length > 0) {\n        showOverallInstruction();\n    } else if (task.showExamples) {\n        showExampleInstruction();\n    } else if (task.reminderInstruction.length > 0) {\n        showReminderInstruction();\n    } else {\n        launchBlock();\n    }\n});\n\nfunction setBasicStyle(that) {\n    that.hideNextButton();\n    jQuery(\"#Plug\").attr('style', 'display: none !important');\n}\n\nfunction getDeviceInformation() {\n\tlet device = \"${e:\/\/Field\/device}\";\n\tisMobile = \/Android|webOS|iPhone|iPad|iPod\/i.test(navigator.userAgent) || device === \"mobile\";\n}\n\nfunction properFontSize() {\n    let fontSize;\n    if (!isMobile) {\n        fontSize = \"24px\";\n    } else {\n        if (screen.height > 1000) {\n            fontSize = \"22px\";\n        } else if (screen.height < 400) {\n            fontSize = \"12px\";\n        } else if (screen.height < 750) {\n            fontSize = \"14px\";\n        } else {\n            fontSize = \"18px\";\n        }\n    }\n    return fontSize;\n}\n\nfunction addListeners() {\n    if (isMobile) {\n        leftButtonElement.addEventListener(\"click\", tapButton);\n        rightButtonElement.addEventListener(\"click\", tapButton);\n    } else {\n        window.addEventListener(\"keydown\", enterResponse);\n        window.focus();\n    }\n}\n\nfunction randomizeBlockConditions() {\n    \/\/ let blockConditions = \"${e:\/\/Field\/blockConditions}\";\n    \/\/ \/\/ console.log(\"Existing Randomized Conditions:\", blockConditions);\n    \/\/ task.blockConditions = blockConditions ? blockConditions.split(\"|\"):generateBlockConditions();\n    \/\/ console.log(\"Randomized Conditions:\", task.blockConditions);\n\n   let combinationFieldName = \"firstCombination\";\n        if (task.studyName.length > 0) {\n            combinationFieldName = task.studyName + \"_firstCombination\";\n        }\n        let firstCombination = Qualtrics.SurveyEngine.getEmbeddedData(combinationFieldName);\n        console.log(\"First Combination\", firstCombination);\n    if (firstCombination) {\n        generateBlockConditions(firstCombination);\n    } else {\n        const combinedConditions = [\"p+\", \"p-\", \"n+\", \"n-\"];\n        const seedingCondition = combinedConditions[Date.now() % combinedConditions.length];\n        generateBlockConditions(seedingCondition);\n    }\n}\n\nfunction generateBlockConditions(seedingCondition) {\n    const oppositeConditionMapping = {\"p\": \"n\", \"n\": \"p\", \"+\": \"-\", \"-\": \"+\"};\n    const conditionBlock1 = seedingCondition[0] + \"x\";\n    const conditionBlock2 = \"x\" + seedingCondition[1];\n    const conditionBlock34 = seedingCondition;\n    let conditionBlock5, conditionBlock67;\n    if (task.switchAttribute) {\n        conditionBlock5 = \"x\" + oppositeConditionMapping[seedingCondition[1]];\n        conditionBlock67 = seedingCondition[0] + conditionBlock5[1];\n    } else {\n        conditionBlock5 = oppositeConditionMapping[seedingCondition[0]] + \"x\";\n        conditionBlock67 = conditionBlock5[0] + seedingCondition[1];\n    }\n    task.blockConditions = [\n        conditionBlock1,\n        conditionBlock2,\n        conditionBlock34,\n        conditionBlock34,\n        conditionBlock5,\n        conditionBlock67,\n        conditionBlock67\n    ];\n    console.log(\"task.blockConditions\");\n    console.log(task.blockConditions);\n}\n\nfunction prepareStimuliFlags() {\n    Object.entries(task.stimulusSources).forEach(([flag, stimuli]) => {\n        stimuli.forEach(stimulus => {\n            stimulusFlags[stimulus] = flag;\n        });\n    });\n}\n\n\nfunction createElements() {\n    let stimulusStyle = [\n        \"position: absolute\",\n        \"top: 0\",\n        \"left: 0\",\n        \"bottom: 0\",\n        \"right: 0\",\n        \"text-align: center\",\n        \"vertical-align: middle\",\n        \"font-size: 40px\",\n        \"background-color: transparent\",\n        \"color: black\",\n        \"display: flex\",\n        \"justify-content: center\",\n        \"align-items: center\",\n        \"overflow: hidden\",\n        \"max-height: 90%\",\n        \"max-width: 90%\",\n        \"margin: auto\"\n    ];\n    boundingBox = document.getElementsByClassName(\"QuestionBody\")[0];\n    if (isMobile) {\n        boundingBox.style.width = \"100%\";\n        \/\/ let boundingBoxHeightPct = Math.max((screen.height \/ screen.width * 100 - 30), 133);\n        \/\/ let boundingBoxHeightPct = Math.max((screen.height \/ screen.width * 100 - 30), 133);\n        boundingBoxAspectRatio = screen.height \/ screen.width\n        boundingBox.style.paddingTop = (boundingBoxAspectRatio * heightRatio * 100).toString() + \"%\";\n        boundingBox.style.border = \"3px solid gray\";\n        stimulusContainer = addStimulusContainer();\n        addStimulusElements(stimulusContainer, stimulusStyle);\n        addFixation(stimulusContainer, stimulusStyle);\n        addButtonsForMobile();\n        addErrorWarning(stimulusContainer);\n    } else {\n        boundingBox.setAttribute(\"style\", \"width: 900px; height: 600px; border: 3px solid gray\");\n        addStimulusElements(boundingBox, stimulusStyle);\n        addFixation(boundingBox, stimulusStyle);\n        addButtonsForDesktop();\n        addErrorWarning(boundingBox);\n    }\n    boundingBox.style.backgroundColor = \"lightgray\";\n    instructionElement = addInstructionElement();\n    actionButton = addActionButtonElement();\n    hideTaskElements();\n}\n\nfunction hideTaskElements() {\n    updateElementsVisibility([\n        [textElement, \"none\"],\n        [imageElement, \"none\"],\n        [fixationElement, \"none\"],\n        [instructionElement, \"none\"],\n        [actionButton, \"none\"],\n        [errorElement, \"none\"],\n        [buttons, \"none\"],\n        [stimulusContainer, \"none\"]\n    ]);\n}\n\nfunction addButtonsForMobile() {\n    buttons = document.createElement(\"div\");\n    buttons.setAttribute(\"style\",\n            \"position: absolute; text-align: center; \" +\n        \"width: 95%; bottom: 0%; left: 2.5%; right: 2.5%\");\n    \/\/ const screenRatio = Math.max(screen.height, screen.width) \/ Math.min(screen.height, screen.width);\n    \/\/ buttons.style.paddingTop = Math.min(70, Math.floor((screenRatio - 1) * 100 - 5)).toString() + \"%\";\n    \/\/ buttons.style.top = ((boundingBoxAspectRatio - 1) * 100).toString() + \"%\";\n    buttons.style.top = (stimulusContainerPct \/ (boundingBoxAspectRatio * heightRatio)).toString() + \"%\";\n    \/\/ console.log(\"stimulusContainerPct:\", stimulusContainerPct);\n    \/\/ console.log(\"boundingBoxAspectRatio:\", boundingBoxAspectRatio);\n    \/\/ console.log(\"buttons.style.top:\", buttons.style.top);\n    boundingBox.appendChild(buttons);\n    leftButtonElement = addButtonElementForMobile(\"left\", buttons);\n    rightButtonElement = addButtonElementForMobile(\"right\", buttons);\n}\n\nfunction addButtonsForDesktop() {\n    buttons = document.createElement(\"div\");\n    buttons.setAttribute(\"style\",\n        \"position: absolute; top: 2.5%; left: 0%; right: 0%;\");\n    boundingBox.appendChild(buttons);\n    leftButtonElement = addCategoryLabel(\"left\", buttons);\n    rightButtonElement = addCategoryLabel(\"right\", buttons);\n}\n\nfunction addCategoryLabel(side, container) {\n    let sharedButtonStyle = [\n        \"position: absolute\",\n        \"top: 0%\",\n        \"width: 20%\"\n    ];\n    let button = document.createElement(\"div\");\n    button.id = \"iat_\" + side + \"_button\";\n    sharedButtonStyle.push(side + \": 2.5%\");\n    button.setAttribute(\"style\", sharedButtonStyle.join(\"; \"));\n    button.style.fontSize = properFontSize();\n    container.appendChild(button);\n    return button;\n}\n\nfunction addButtonElementForMobile(side, buttons) {\n    let buttonStyle = [\n        \"border: 3px solid darkgray\",\n        \"border-radius: 2px\",\n        \"margin: 2.5%\",\n        \"position: absolute\",\n        \"width: 45%\",\n        \"height: 100%\",\n        \"white-space: normal\",\n        \"bottom: 0\",\n        \"display: table-cell\",\n        \"outline: none\",\n        \"max-height: 200px\"\n    ]\n    let button = document.createElement(\"button\");\n    button.id = \"iat_\" + side + \"_button\";\n    buttonStyle.push(side + \": 0%\");\n    button.setAttribute(\"style\", buttonStyle.join(\"; \"));\n    button.style.fontSize = properFontSize();\n    buttons.appendChild(button);\n    return button;\n}\n\nfunction  addStimulusContainer() {\n    let stimulusContainerStyle = [\n        \"background-color: transparent\",\n        \"position: absolute\",\n        \"width: 95%\",\n        \"padding-top: 95%\",\n        \/\/ \"border: 3px solid black\",\n        \"top: 0%\",\n        \"left: 2.5%\",\n        \"right: 2.5%\"\n    ];\n    let stimulusContainer = document.createElement(\"div\");\n    stimulusContainer.setAttribute(\"style\", stimulusContainerStyle.join(\"; \"));\n    boundingBox.appendChild(stimulusContainer);\n    let hWRatio = screen.height \/ screen.width;\n    if ((screen.height > 1000 && hWRatio < 1.55) || hWRatio < 1.34) {\n        stimulusContainer.style.paddingTop = \"80%\";\n        stimulusContainerPct = 80;\n    }\n    return stimulusContainer\n}\n\nfunction addErrorWarning(container) {\n    errorElement = document.createElement(\"p\");\n    errorElement.setAttribute(\"style\",\n        \"position: absolute; text-align: center; bottom: 0%; color: red; font-size: 32px; left: 0; right: 0\");\n    errorElement.appendChild(document.createTextNode(\"X\"));\n    container.appendChild(errorElement);\n}\n\nfunction addFixation(container, stimulusStyle) {\n    fixationElement = document.createElement(\"p\")\n    fixationElement.setAttribute(\"style\", stimulusStyle.join(\"; \"));\n    fixationElement.appendChild(document.createTextNode(\"+\"));\n    container.appendChild(fixationElement);\n}\n\nfunction addStimulusElements(container, stimulusStyle) {\n    const medias = [task.attributeStimulusType[\"media\"], task.targetStimulusType[\"media\"]];\n    if (medias.includes(\"text\")) {\n        textElement = document.createElement(\"p\");\n        textElement.appendChild(document.createTextNode(\"\"));\n        textElement.setAttribute(\"style\", stimulusStyle.join(\"; \"));\n        textElement.style.fontSize = \"30px\";\n        container.appendChild(textElement);\n    }\n    if (medias.includes(\"image\")) {\n        imageElement = document.createElement(\"img\");\n        imageElement.setAttribute(\"style\", stimulusStyle.join(\"; \"));\n        container.appendChild(imageElement);\n    }\n}\n\nfunction showReminderInstruction() {\n    if (!pagedReminderInstructions) {\n        pagedReminderInstructions =\n            isMobile ? task.mobileReminderInstruction:task.reminderInstruction;\n        toggleInstructionElements(\"block\");\n        updateElementsVisibility([\n            [imageElement, \"none\"],\n            [textElement, \"none\"],\n            [stimulusContainer, \"none\"]\n        ]);\n    }\n    actionButton.id = \"iat_classification_instruction\";\n    let nextPage = pagedReminderInstructions.shift();\n    if (nextPage) {\n        instructionElement.innerHTML = nextPage;\n    } else {\n        toggleInstructionElements(\"none\");\n        launchBlock();\n    }\n}\n\nfunction launchBlock() {\n    updateElementsVisibility([\n        [textElement, \"none\"],\n        [imageElement, \"none\"],\n        [fixationElement, \"none\"]\n    ]);\n    if (currentBlockNumber >= 1 && currentBlockNumber <= task.blockConditions.length) {\n        saveBlockResponses();\n    }\n    currentBlockNumber++;\n    if (isMobile) {\n        boundingBox.style.border = \"3px solid white\";\n        stimulusContainer.style.border = \"3px solid black\";\n    }\n    \/\/ console.log(\"Launching Block\", currentBlockNumber);\n    if (currentBlockNumber <= task.blockConditions.length) {\n        currentTrialNumber = 0;\n        currentBlock.imageSources = new Set();\n        currentBlock.loadedImages = new Set();\n        currentBlock.condition = task.blockConditions[currentBlockNumber - 1];\n        generateBlockInstruction();\n        generateBlockTrials();\n        preloadTrials();\n        showBlockInstruction();\n        document.body.style.cursor = 'none';\n    } else {\n        document.body.style.cursor = 'unset';\n        showEndingMessage();\n    }\n}\n\nfunction showOverallInstruction() {\n    if (!pagedInstructions) {\n        pagedInstructions = isMobile ? task.mobileOverallInstruction:task.overallInstruction;\n        toggleInstructionElements(\"block\");\n    }\n    actionButton.id = \"iat_overall_instruction\";\n    let nextPage = pagedInstructions.shift();\n    if (nextPage) {\n        instructionElement.innerHTML = nextPage;\n    } else {\n        if (task.showExamples) {\n            showExampleInstruction();\n        } else if (task.reminderInstruction.length > 0) {\n            showReminderInstruction();\n        } else {\n            toggleInstructionElements(\"none\");\n            launchBlock();\n        }\n    }\n}\n\nfunction executeAction(event) {\n    let element = event.target;\n    if (element.id === \"iat_overall_instruction\") {\n        showOverallInstruction();\n    } else if (element.id === \"iat_example_instruction\") {\n        showExampleInstruction();\n    } else if (element.id === \"iat_classification_instruction\") {\n        showReminderInstruction();\n    }\n}\n\nfunction addInstructionElement() {\n    let instructionElement = document.createElement(\"div\");\n    instructionElement.id = \"iat_instruction\";\n    instructionElement.setAttribute(\"style\",\n        \"text-align: center; top: 5%; left: 2.5%; right: 2.5%; position: absolute; color: black\");\n    instructionElement.style.fontSize = properFontSize();\n    boundingBox.appendChild(instructionElement);\n    return instructionElement;\n}\n\nfunction addActionButtonElement() {\n    let actionButtonElement = document.createElement(\"button\");\n    actionButtonElement.addEventListener(\"click\", executeAction);\n    actionButtonElement.setAttribute(\"style\",\n        \"background-color: green; border: none; padding: 8px 16px; \" +\n        \"color: white; text-align: center; display: block; margin: 0 auto; \" +\n        \"position: absolute; left: 20%; right: 20%; bottom: 2.5%; outline: none;\");\n    actionButtonElement.style.fontSize = properFontSize();\n    actionButtonElement.textContent = \"Continue\";\n    boundingBox.appendChild(actionButtonElement);\n    return actionButtonElement;\n}\n\nfunction toggleInstructionElements(display) {\n    updateElementsVisibility([\n        [instructionElement, display],\n        [actionButton, display]\n    ]);\n}\n\nfunction showExampleInstruction() {\n    if (!pagedExampleInstructions) {\n        pagedExampleInstructions = task.exampleInstruction;\n        toggleInstructionElements(\"block\");\n        prepareExamples();\n    }\n    actionButton.id = \"iat_example_instruction\";\n    let nextPage = pagedExampleInstructions.shift();\n    \/\/ console.log(\"What's next page?\", nextPage);\n    if (nextPage) {\n        instructionElement.innerHTML = nextPage;\n    } else {\n        startShowingExamples();\n    }\n}\n\nfunction prepareExamples() {\n    Object.entries(task.stimulusSources).forEach(([flag, stimuli]) => {\n        let shuffledStimuli = stimuli.slice();\n        shuffleArray(shuffledStimuli);\n        shuffledStimuli.forEach(stimulus => {\n            stimulusFlags[stimulus] = flag;\n            exampleTrials.push({\n                sourceStimulus: stimulus,\n                sourceFlag: flag,\n                sourceMedia: [\"p\", \"n\"].includes(flag) ? task.targetStimulusType[\"media\"]:task.attributeStimulusType[\"media\"],\n                isAttribute: [\"+\", \"-\"].includes(flag)\n            });\n        });\n    });\n}\n\n\nfunction startShowingExamples() {\n    \/\/ console.log(\"startShowingExamples\");\n    toggleInstructionElements(\"none\");\n    loadNextExample();\n}\n\nfunction loadNextExample() {\n    if (isMobile) {\n        updateElementsVisibility([[stimulusContainer, \"block\"]]);\n    }\n    let exampleCategoryLabel = document.getElementById(\"iat_example_label\");\n    if (!exampleCategoryLabel) {\n        exampleCategoryLabel = document.createElement(\"div\");\n        exampleCategoryLabel.id = \"iat_example_label\";\n        exampleCategoryLabel.setAttribute(\"style\",\n            \"text-align: center; position: absolute; top: 2.5%; left: 0; right: 0; color: black\");\n        exampleCategoryLabel.style.fontSize = properFontSize()\n        \/\/ exampleCategoryLabel.style.margin = isMobile ? \"0%\":\"2.5%\";\n        \/\/ if (isMobile) {\n        \/\/     stimulusContainer.appendChild(exampleCategoryLabel);\n        \/\/ } else {\n        \/\/\n        \/\/ }\n        boundingBox.appendChild(exampleCategoryLabel);\n    }\n    let exampleTrial = exampleTrials.pop();\n    if (exampleTrial) {\n        exampleCategoryLabel.textContent = task.stimulusLabels[exampleTrial.sourceFlag];\n        if (exampleTrial.sourceMedia === \"image\") {\n            imageElement.src = exampleTrial.sourceStimulus;\n            updateElementsVisibility([\n                [imageElement, \"flex\"],\n                [textElement, \"none\"]\n            ]);\n        } else {\n            textElement.style.color = exampleTrial.isAttribute ? task.attributeWordColor:task.targetWordColor;\n            exampleCategoryLabel.style.color = textElement.style.color;\n            const textNode = textElement.childNodes[0];\n            textNode.nodeValue = exampleTrial.sourceStimulus;\n            updateElementsVisibility([\n                [imageElement, \"none\"],\n                [textElement, \"flex\"]\n            ]);\n        }\n        setTimeout(loadNextExample, task.exampleDisplayTime);\n    } else {\n        exampleCategoryLabel.remove();\n        if (task.reminderInstruction.length > 0) {\n            showReminderInstruction();\n        } else {\n            launchBlock();\n        }\n    }\n}\n\nfunction generateBlockTrials() {\n    currentBlock.trials = [];\n    const blockTrialNumber = task.blockTrialNumbers[currentBlockNumber - 1];\n    for (let i = 0; i < blockTrialNumber; i++) {\n        currentBlock.trials.push({\n            stimulus: null,\n            flag: null,\n            media: null,\n            correct: null,\n            isAttribute: false,\n            startTime: null,\n            reactionTime: null\n        });\n    }\n    let singleBlock = currentBlock.condition.includes(\"x\");\n    if (singleBlock) {\n        updateSingleBlockTrials(\"+-\".includes(currentBlock.condition[1]));\n    } else {\n        updateCombinedBlockTrials();\n    }\n}\n\nfunction attributeStimuli() {\n    const stimuli =  task.stimulusSources['+'].concat(task.stimulusSources['-']);\n    shuffleArray(stimuli);\n    return stimuli;\n}\n\nfunction targetStimuli() {\n    const stimuli = task.stimulusSources['p'].concat(task.stimulusSources['n']);\n    shuffleArray(stimuli);\n    return stimuli;\n}\n\nfunction updateSingleBlockTrials(forAttributeBlock) {\n    const blockTrialNumber = currentBlock.trials.length;\n    let updatedTrialNumber = 0;\n    let media = forAttributeBlock ? task.attributeStimulusType[\"media\"]:task.targetStimulusType[\"media\"];\n    let sources = [];\n    while (updatedTrialNumber < blockTrialNumber) {\n        let trial = currentBlock.trials[updatedTrialNumber];\n        if (sources.length < 1) {\n            sources = forAttributeBlock ? attributeStimuli():targetStimuli();\n        }\n        trial.stimulus = sources.pop();\n        trial.flag = stimulusFlags[trial.stimulus];\n        trial.media = media;\n        trial.isAttribute = forAttributeBlock;\n        if (trial.media === \"image\") {\n            currentBlock.imageSources.add(trial.stimulus);\n        }\n        updatedTrialNumber++;\n    }\n}\n\nfunction updateCombinedBlockTrials() {\n    const blockTrialNumber = currentBlock.trials.length;\n    let updatedTrialNumber = 0;\n    let sources = [attributeStimuli(), targetStimuli()];\n    let sourceNumber = Date.now() % 2;\n    while (updatedTrialNumber < blockTrialNumber) {\n        let trial = currentBlock.trials[updatedTrialNumber];\n        if (sources[sourceNumber].length < 1) {\n            sources[sourceNumber] = sourceNumber === 0 ? attributeStimuli():targetStimuli()\n        }\n        trial.stimulus = sources[sourceNumber].pop();\n        trial.flag = stimulusFlags[trial.stimulus];\n        trial.media = sourceNumber === 0 ? task.attributeStimulusType[\"media\"]:task.targetStimulusType[\"media\"];\n        trial.isAttribute = sourceNumber === 0;\n        if (trial.media === \"image\") {\n            currentBlock.imageSources.add(trial.stimulus);\n        }\n        sourceNumber = 1 - sourceNumber;\n        updatedTrialNumber++;\n    }\n}\n\nfunction preloadTrials() {\n    if (currentBlock.imageSources.size > 0) {\n        for (let i = 0; i < currentBlock.trials.length; i++) {\n            const trial = currentBlock.trials[i];\n            if (trial.media === \"image\") {\n                const image = new Image();\n                image.src = trial.stimulus;\n                image.onload = function () {\n                    currentBlock.loadedImages.add(trial.stimulus);\n                }\n            }\n        }\n    }\n}\n\nfunction beginBlock() {\n    \/\/ console.log(\"currentBlock.imageSources:\", currentBlock.imageSources);\n    \/\/ console.log(\"currentBlock.loadedImages:\", currentBlock.loadedImages);\n    if (currentBlock.imageSources.size > 0 &&\n        currentBlock.loadedImages.size < currentBlock.imageSources.size * task.minimumPreloadImagePercent \/ 100) {\n        showWarningMessage(\"Some stimuli are still being downloaded. Please try again later. If the problem\" +\n            \"persists, please notify the research team.\");\n        return;\n    }\n    updateElementsVisibility([\n        [instructionElement, \"none\"],\n        [stimulusContainer, \"block\"]\n    ]);\n    loadNextTrial();\n}\n\nfunction loadNextTrial() {\n    dismissErrorMessage();\n    currentTrialNumber++;\n    if (currentTrialNumber <= currentBlock.trials.length) {\n        updateElementsVisibility([\n            [fixationElement, \"flex\"],\n            [textElement, \"none\"],\n            [imageElement, \"none\"]\n        ]);\n        setTimeout(loadStimulus, task.interTrialInterval);\n    } else {\n       launchBlock();\n    }\n}\n\nfunction updateElementsVisibility(elementDisplays) {\n    for (let i = 0; i < elementDisplays.length; i++) {\n        const elementDisplay = elementDisplays[i];\n        const element = elementDisplay[0];\n        const display = elementDisplay[1];\n        if (element) {\n            element.style.display = display;\n        }\n    }\n}\n\nfunction loadStimulus() {\n    currentTrial = currentBlock.trials[currentTrialNumber - 1];\n    let elementsDisplays = [];\n    if (currentTrial.media === \"image\") {\n        imageElement.src = currentTrial.stimulus;\n        elementsDisplays.push([imageElement, \"flex\"]);\n    } else {\n        textElement.style.color = currentTrial.isAttribute ? task.attributeWordColor:task.targetWordColor;\n        const textNode = textElement.childNodes[0];\n        textNode.nodeValue = currentTrial.stimulus;\n        elementsDisplays.push([textElement, \"flex\"]);\n    }\n    elementsDisplays.push([fixationElement, \"none\"]);\n    updateElementsVisibility(elementsDisplays);\n    currentTrial.startTime = Date.now();\n    \/\/ console.log(\"loading next trial\", currentTrial);\n    \/\/ console.log(\"Correct Side: \", currentBlock.condition.includes(currentTrial.flag) ? \"F\":\"J\");\n    if (task.automaticResponsesDelay > task.minimumAllowedReactionTime) {\n        setTimeout(applyAutomaticResponses, automaticResponsesDelay);\n    }\n}\n\nfunction applyAutomaticResponses() {\n    let correctSide = currentBlock.condition.includes(currentTrial.flag) ? \"l\":\"r\";\n    scoreResponse(correctSide)\n}\n\nfunction tapButton(event) {\n    if (currentTrialNumber < 1) {\n        beginBlock();\n    } else {\n        let targetElement = event.target;\n        if (!targetElement.id) {\n            targetElement = targetElement.parentElement;\n        }\n        let side = targetElement.id[\"iat_\".length];\n        scoreResponse(side);\n    }\n}\n\nfunction enterResponse(event) {\n    event.preventDefault();\n    if (currentBlockNumber < 1) {\n        return;\n    }\n    if (currentTrialNumber < 1) {\n        if (task.advanceKey['code'] === event.code) {\n            beginBlock();\n        }\n    } else {\n        if ([task.leftKey[\"code\"], task.rightKey[\"code\"]].includes(event.code)) {\n            scoreResponse(task.leftKey[\"code\"] === event.code ? \"l\":\"r\");\n        } else {\n            showWarningMessage(\"The key isn't allowed for the task.\");\n        }\n    }\n}\n\nfunction scoreResponse(side) {\n    \/\/ don't score response during the ITI\n    if (!currentTrial || !currentTrial.startTime) {\n        \/\/ console.log(\"Next trial is not set yet: \", currentTrial);\n        return;\n    }\n    \/\/ console.log(\"Pressed side: \", side);\n    \/\/ if response is set for the current trial and task doesn't require correction, skip scoring\n    if (currentTrial.correct !== null && !task.requiresCorrection) {\n        return;\n    }\n    let reactionTime = Date.now() - currentTrial.startTime;\n    \/\/ prevent subjects from randomly answering the questions\n    if (reactionTime < task.minimumAllowedReactionTime) {\n        \/\/ console.log(\"Too fast, please slow down\");\n        showWarningMessage(task.tooFastResponseErrorMessage);\n        return;\n    }\n    \/\/ set the reaction time only when a response hasn't been recorded\n    if (!currentTrial.reactionTime) {\n        currentTrial.reactionTime = reactionTime;\n    }\n    const correctSide = currentBlock.condition.includes(currentTrial.flag) ? \"l\":\"r\";\n    if (side === correctSide) {\n        if (currentTrial.correct === null) {\n            currentTrial.correct = true;\n        }\n        \/\/ console.log(\"After scoring response correct: \", currentTrial);\n        currentTrial = null;\n        loadNextTrial();\n    } else {\n        currentTrial.correct = false;\n        \/\/ console.log(\"After scoring response incorrect: \", currentTrial);\n        updateElementsVisibility([[errorElement, \"block\"]]);\n        if (!task.requiresCorrection) {\n            currentTrial = null;\n            setTimeout(loadNextTrial, 300);\n        }\n    }\n}\n\nfunction saveBlockResponses() {\n    let blockResponses = [];\n    let blockTrials = [];\n    for (let i = 0; i < currentBlock.trials.length; i++) {\n        let trial = currentBlock.trials[i];\n        blockResponses.push([(i + 1).toString(), trial.correct ? \"Y\":\"N\", trial.reactionTime].join(\"\"));\n        blockTrials.push(trial.stimulus);\n    }\n    \/\/ console.log(\"Block Responses:\", blockResponses);\n    Qualtrics.SurveyEngine.setEmbeddedData(\n        task.studyName + \"_block\" + currentBlockNumber.toString() + \"Responses\",\n        blockResponses.join(task.interTrialResponseSeparator)\n    );\n    Qualtrics.SurveyEngine.setEmbeddedData(\n        task.studyName + \"_block\" + currentBlockNumber.toString() + \"Trials\",\n        blockTrials.toString()\n    );\n}\n\nfunction showBlockInstruction() {\n    if (isMobile) {\n        updateElementsVisibility([\n            [buttons, \"block\"],\n            [stimulusContainer, \"none\"],\n            [instructionElement, \"block\"],\n            [actionButton, \"none\"]\n        ]);\n    } else {\n        updateElementsVisibility([\n            [buttons, \"block\"],\n            [instructionElement, \"block\"],\n            [actionButton, \"none\"],\n            [textElement, \"none\"],\n            [imageElement, \"none\"]\n        ]);\n    }\n    instructionElement.innerHTML = currentBlock.instruction;\n}\n\nfunction generateBlockInstruction() {\n    let leftButtonText, leftLabelText, rightButtonText, rightLabelText;\n    let targetCondition = currentBlock.condition[0];\n    let attributeCondition = currentBlock.condition[1];\n    if ((attributeCondition !== \"x\" && targetCondition !== \"x\")) {\n        leftLabelText = task.stimulusLabels[targetCondition] + \" \" + task.targetStimulusType[\"name\"]  + \" or \" +\n            task.stimulusLabels[attributeCondition] + \" \" + task.attributeStimulusType[\"name\"];\n        rightLabelText = task.oppositeStimulusLabels[targetCondition] + \" \" + task.targetStimulusType[\"name\"] + \" or \" +\n            task.oppositeStimulusLabels[attributeCondition] + \" \" + task.attributeStimulusType[\"name\"];\n        updateCombinedLabelText(leftButtonElement, task.stimulusLabels[attributeCondition], task.stimulusLabels[targetCondition]);\n        updateCombinedLabelText(rightButtonElement, task.oppositeStimulusLabels[attributeCondition], task.oppositeStimulusLabels[targetCondition]);\n    } else {\n        let forAttribute = attributeCondition !== \"x\";\n        if (attributeCondition !== \"x\" && targetCondition === \"x\") {\n            leftButtonText = task.stimulusLabels[attributeCondition];\n            rightButtonText = task.oppositeStimulusLabels[attributeCondition];\n            leftLabelText = leftButtonText + \" \" + task.attributeStimulusType[\"name\"];\n            rightLabelText = rightButtonText + \" \" + task.attributeStimulusType[\"name\"];\n        } else if (attributeCondition === \"x\" && targetCondition !== \"x\") {\n            leftButtonText = task.stimulusLabels[targetCondition];\n            rightButtonText = task.oppositeStimulusLabels[targetCondition];\n            leftLabelText = leftButtonText + \" \" + task.targetStimulusType[\"name\"];\n            rightLabelText = rightButtonText + \" \" + task.targetStimulusType[\"name\"];\n        }\n        updateSingleLabelText(leftButtonElement, leftButtonText, forAttribute, isMobile ? \"center\":\"left\");\n        updateSingleLabelText(rightButtonElement, rightButtonText, forAttribute, isMobile ? \"center\":\"right\");\n    }\n    let leftResponseAction, rightResponseAction, correctionResponseAction;\n    if (isMobile) {\n        leftResponseAction = \"<span style='color: red'>tap the left button.<\/span>\";\n        rightResponseAction = \"<span style='color: red'>tap the right button.<\/span>\";\n        correctionResponseAction = \"tap the other button.\";\n    } else {\n        leftResponseAction = \"<span style='color: red'>press the key \" + task.leftKey[\"name\"] + \".<\/span>\";\n        rightResponseAction = \"<span style='color: red'>press the key \" + task.rightKey[\"name\"] + \".<\/span>\";\n        correctionResponseAction = \"press the other key.\";\n    }\n    let words = [\"If\", leftLabelText, \"are presented,\", leftResponseAction, \"If\",\n        rightLabelText, \"are presented,\", rightResponseAction, \"<br \/> <br \/>\",\n        \"<span style='color: red;' >Go Fast<\/span>. Some mistakes are <span style='color: red;'>OKAY<\/span>.\"];\n    if (task.requiresCorrection) {\n        words.push(\" When an error message (the red <span style='color: red;'>X<\/span>) shows, \" + correctionResponseAction);\n    }\n    if (isMobile) {\n        words.push(\"<br \/><br \/>Tap either button to continue.\");\n    } else {\n        words.push(\"<br \/><br \/>Press \" + task.advanceKey[\"name\"] + \" to continue.\");\n        words.unshift( \"<br \/> <br \/><br \/> <br \/><br \/> <br \/>\")\n    }\n    currentBlock.instruction = words.join(\" \");\n}\n\nfunction updateSingleLabelText(label, text, forAttribute, alignment) {\n    label.innerHTML = \"<span style='color: \" + (forAttribute ? task.attributeLabelColor:task.targetLabelColor) +\n        \"'>\" + text + \"<\/span>\";\n    label.style.textAlign = alignment;\n    label.style.fontSize = properFontSize();\n    if (label === leftButtonElement && !isMobile) {\n        label.style.left = \"2.5%\";\n    } else if (label === rightButtonElement && !isMobile) {\n        label.style.right = \"2.5%\";\n    }\n}\n\nfunction updateCombinedLabelText(label, attributeLabelText, targetLabelText) {\n    label.innerHTML = \"<span style='color: \" + task.targetLabelColor +\"'>\" + targetLabelText +\n        \"<\/span><br \/>or<br \/><span style='color: \" + task.attributeLabelColor + \"'>\" + attributeLabelText + \"<\/span>\";\n    label.style.textAlign = \"center\";\n    if (label === leftButtonElement && !isMobile) {\n        label.style.left = \"0%\";\n    } else if (label === rightButtonElement && !isMobile) {\n        label.style.right = \"0%\";\n    }\n    label.style.fontSize = properFontSize();\n}\n\nfunction shuffleArray(array) {\n    for (let i = array.length - 1; i > 0; i--) {\n        const j = Math.floor(Math.random() * (i + 1));\n        [array[i], array[j]] = [array[j], array[i]];\n    }\n}\n\nfunction showEndingMessage() {\n    if (task.endingMessage && task.endingMessage !== \"null\") {\n        instructionElement.innerHTML = task.endingMessage;\n        hideTaskElements();\n        updateElementsVisibility([\n            [instructionElement, \"block\"]\n        ]);\n        if (!isMobile) {\n            window.removeEventListener(\"keydown\", enterResponse);\n        } else {\n            updateElementsVisibility([\n                [stimulusContainer, \"none\"]\n            ]);\n        }\n        setTimeout(function () {\n            jQuery(\"#NextButton\").click();\n        }, 1500);\n    } else {\n        jQuery(\"#NextButton\").click();\n    }\n}\n\nfunction showWarningMessage(errorMessage, timeout = true) {\n    warningElement = document.getElementById(\"iat_custom_error\");\n    if (!warningElement) {\n        warningElement = document.createElement(\"div\");\n        warningElement.setAttribute(\"style\",\n            \"background-color: lightgray; color: red;\");\n        warningElement.fontSize = properFontSize();\n        warningElement.id = \"iat_custom_error\";\n        warningElement.appendChild(document.createTextNode(errorMessage));\n        document.getElementById('Header').appendChild(warningElement);\n    }\n    updateElementsVisibility([[warningElement, \"block\"]]);\n    warningElement.childNodes[0].nodeValue = errorMessage;\n    if (timeout) {\n        setTimeout(dismissErrorMessage, 1500);\n    }\n}\n\nfunction dismissErrorMessage() {\n    updateElementsVisibility([\n        [warningElement, \"none\"],\n        [errorElement, \"none\"],\n    ]);\n}\n\nQualtrics.SurveyEngine.addOnUnload(function()\n{\n    if (!isMobile) {\n        window.removeEventListener(\"keydown\", enterResponse);\n    }\n});",
+                "DefaultChoices": false,
+                "DataExportTag": "Q7",
+                "QuestionID": "QID1310629872",
+                "QuestionType": "DB",
+                "Selector": "GRB",
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                },
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText"
+                },
+                "QuestionDescription": "Click to write the question text",
+                "ChoiceOrder": [],
+                "Validation": {
+                    "Settings": {
+                        "Type": "None"
+                    }
+                },
+                "GradingData": [],
+                "Language": [],
+                "NextChoiceId": 4,
+                "NextAnswerId": 1,
+                "SubSelector": "WOTXB"
+            }
+        }
+    ]
+}
