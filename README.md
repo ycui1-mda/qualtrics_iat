@@ -13,7 +13,7 @@ Alternatively, you can run the app offline. The general steps are:
 
 ## Citation:
 Cui Y., Robinson, J.D., Kim, S.K., Kypriotakis G., Green C.E., Shete S.S., & Cinciripini P.M., An open source web
-app for creating and scoring Qualtrics-based implicit association test. Behavior Research Methods (submitted)
+app for creating and scoring Qualtrics-based implicit association test. arXiv:2111.02267 [q-bio.QM]
 
 ## Key Functionalities
 The web app has three key functionalities: IAT Generator, Qualtrics Tools, and IAT Data Scorer. Each functionality
