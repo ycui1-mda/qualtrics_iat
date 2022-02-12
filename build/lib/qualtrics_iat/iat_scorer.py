@@ -299,7 +299,7 @@ Error Trial Penalty (ms or SD unit): {self.rt_punishment}"""
     
     def _process_data_shared(self, trial_data):
         iat_data_report = pd.DataFrame()
-        grouped_by = self.iat_data.grouped_by
+        grouped_by = list(self.iat_data.grouped_by)
     
         # The total trial count by session
         iat_data_report["total_trial_count"] = trial_data.groupby(grouped_by).size()
