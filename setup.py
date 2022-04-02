@@ -5,7 +5,7 @@ with open("README.md") as file:
 
 setuptools.setup(
     name="qualtrics_iat",
-    version="0.2.3",
+    version="0.2.5",
     author="Yong Cui",
     author_email="ycui1@mdanderson.org",
     description="A toolset for creating and scoring Qualtrics-based IAT experiments",

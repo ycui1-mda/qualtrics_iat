@@ -282,6 +282,15 @@ class IATTask:
         standard_script = pkg_resources.read_text("templates", "iat_question_js_code.js")
         return task_setup + '\n' + standard_script
 
+    def update_embedded_field(self, embedded_field, key):
+        return self.study_name + "_" + embedded_field[key]
+
+    def process_flow_item(self, flow_item, prefix):
+        for embedded_field in flow_item["EmbeddedData"]:
+            if ("Description" in embedded_field) and embedded_field["Description"].startswith(prefix):
+                embedded_field["Description"] = self.update_embedded_field(embedded_field, "Description")
+                embedded_field["Field"] = self.update_embedded_field(embedded_field, "Field")
+
     def generate_template_file(self):
         question_js = self.generate_script()
         json_template = json.loads(pkg_resources.read_text("templates", "iat_survey_template.qsf"))
@@ -289,14 +298,16 @@ class IATTask:
             for element in filter(lambda x: x["Element"] == "SQ", json_template[item]):
                 element["Payload"]["QuestionJS"] = question_js
                 break
-            if self.study_name:
-                for element in filter(lambda x: x["Element"] == "FL", json_template[item]):
-                    for embedded_data in filter(lambda x: x["Type"] == "EmbeddedData", element["Payload"]["Flow"]):
-                        for embedded_field in embedded_data["EmbeddedData"]:
-                            if ("Description" in embedded_field) and embedded_field["Description"].startswith(
-                                    ("block", "first")):
-                                embedded_field["Description"] = self.study_name + "_" + embedded_field["Description"]
-                                embedded_field["Field"] = self.study_name + "_" + embedded_field["Field"]
+
+            if not self.study_name:
+                continue
+            for element in filter(lambda x: x["Element"] == "FL", json_template[item]):
+                for flow_item in filter(lambda x: x["Type"] == "EmbeddedData", element["Payload"]["Flow"]):
+                    self.process_flow_item(flow_item, "block")
+
+                for flow_item in filter(lambda x: x["Type"] == "BlockRandomizer", element["Payload"]["Flow"]):
+                    for random_flow_item in flow_item["Flow"]:
+                        self.process_flow_item(random_flow_item, "first")
 
         dumped_js = json.dumps(json_template)
         return dumped_js
