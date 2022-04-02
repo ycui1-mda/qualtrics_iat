@@ -283,7 +283,6 @@ class IATTask:
         return task_setup + '\n' + standard_script
 
     def generate_template_file(self):
-        number_of_blocks = len(self.block_trial_numbers)
         question_js = self.generate_script()
         json_template = json.loads(pkg_resources.read_text("templates", "iat_survey_template.qsf"))
         for item in filter(lambda x: x == "SurveyElements", json_template):
@@ -294,9 +293,8 @@ class IATTask:
                 for element in filter(lambda x: x["Element"] == "FL", json_template[item]):
                     for embedded_data in filter(lambda x: x["Type"] == "EmbeddedData", element["Payload"]["Flow"]):
                         for embedded_field in embedded_data["EmbeddedData"]:
-                            block_embedded = tuple(f"block{x}" for x in range(1, number_of_blocks + 1))
                             if ("Description" in embedded_field) and embedded_field["Description"].startswith(
-                                    block_embedded):
+                                    ("block", "first")):
                                 embedded_field["Description"] = self.study_name + "_" + embedded_field["Description"]
                                 embedded_field["Field"] = self.study_name + "_" + embedded_field["Field"]
 
