@@ -91,7 +91,7 @@ def _load_generator():
     shared_stimuli_instruction = "(words or URLs to images), separated by commas. Enclose each word or URL with " \
                                  "single or double quotes and your entire list with square brackets for coding " \
                                  "purposes."
-    target_positive_col, target_negative_col = st.beta_columns(2)
+    target_positive_col, target_negative_col = st.columns(2)
 
     working_task.target_positive_concept = target_positive_col.text_input(
         "Positive Target Concept",
@@ -126,7 +126,7 @@ def _load_generator():
     )
 
     st.subheader("Attribute Concepts")
-    attribute_positive_col, attribute_negative_col = st.beta_columns(2)
+    attribute_positive_col, attribute_negative_col = st.columns(2)
     working_task.attribute_positive_concept = attribute_positive_col.text_input(
         "Positive Attribute Concept",
         working_task.attribute_positive_concept
@@ -238,7 +238,7 @@ def _load_generator():
     )
     key_column_titles = ["Code (used for recording responses)", "Name (used for instructions)"]
     key_row_titles = ["Left Key", "Right Key", "Advance Key (to launch blocks)"]
-    response_key_code_col, response_key_name_col = st.beta_columns(len(key_column_titles))
+    response_key_code_col, response_key_name_col = st.columns(len(key_column_titles))
     response_key_code_col.markdown(f"__{key_column_titles[0]}__")
     response_key_name_col.write(f"__{key_column_titles[1]}__")
     working_task.left_key_code = response_key_code_col.text_input(
@@ -286,7 +286,7 @@ def _load_generator():
              "a text string. Please use square brackets to wrap these individual pages, separated by commas. Previews "
              "are shown on the right side.")
     st.write("__Instruction for Desktop Users__")
-    instruction_desktop_text_col, instruction_desktop_preview_col = st.beta_columns(2)
+    instruction_desktop_text_col, instruction_desktop_preview_col = st.columns(2)
     working_task.overall_instruction_desktop = instruction_desktop_text_col.text_area(
         "HTTP Text",
         working_task.get_overall_instruction(False),
@@ -296,7 +296,7 @@ def _load_generator():
     _preview_instructions(working_task.overall_instruction_desktop, instruction_desktop_preview_col)
 
     st.write("__Instruction for Mobile Users__")
-    instruction_mobile_text_col, instruction_mobile_preview_col = st.beta_columns(2)
+    instruction_mobile_text_col, instruction_mobile_preview_col = st.columns(2)
     working_task.overall_instruction_mobile = instruction_mobile_text_col.text_area(
         "HTTP Text",
         working_task.get_overall_instruction(True),
@@ -319,7 +319,7 @@ def _load_generator():
         )
         st.markdown("__Instructions Before Showing Examples__ (The rules for preparing the instructions are the "
                     "same as the ones for the overall instructions.)")
-        example_instruction_text_col, example_instruction_preview_col = st.beta_columns(2)
+        example_instruction_text_col, example_instruction_preview_col = st.columns(2)
         working_task.example_instruction = example_instruction_text_col.text_area(
             "HTTP Text",
             working_task.get_example_instruction(),
@@ -337,7 +337,7 @@ def _load_generator():
     st.subheader("Reminder Instructions")
     st.write("These instructions will be displayed right before the classification portion, as a friendly reminder.")
     st.write("__Reminder Instruction for Desktop Users__")
-    reminder_instruction_desktop_text_col, reminder_instruction_desktop_preview_col = st.beta_columns(2)
+    reminder_instruction_desktop_text_col, reminder_instruction_desktop_preview_col = st.columns(2)
     working_task.reminder_instruction_desktop = reminder_instruction_desktop_text_col.text_area(
         "HTTP Text",
         working_task.get_reminder_instruction(False),
@@ -347,7 +347,7 @@ def _load_generator():
     _preview_instructions(working_task.reminder_instruction_desktop, reminder_instruction_desktop_preview_col)
 
     st.write("__Reminder Instruction for Mobile Users__")
-    reminder_instruction_mobile_text_col, reminder_instruction_mobile_preview_col = st.beta_columns(2)
+    reminder_instruction_mobile_text_col, reminder_instruction_mobile_preview_col = st.columns(2)
     working_task.reminder_instruction_mobile = reminder_instruction_mobile_text_col.text_area(
         "HTTP Text",
         working_task.get_reminder_instruction(True),
@@ -364,7 +364,7 @@ def _load_generator():
         "Target Word Stimulus Color",
         "Target Label Color"
     ]
-    color_columns = st.beta_columns(len(color_column_titles))
+    color_columns = st.columns(len(color_column_titles))
     working_task.attribute_word_color = color_columns[0].color_picker(
         color_column_titles[0],
         working_task.attribute_word_color
@@ -493,7 +493,7 @@ def _load_qualtrics_tools():
 
     st.markdown("#### Upload Images to Qualtrics Graphics Library")
     st.markdown("Use this tool to upload images from your local computer to your Qualtrics Graphics Library.")
-    upload_section = st.beta_expander("Upload Images")
+    upload_section = st.expander("Upload Images")
     upload_section.markdown(
         "You can upload images from your computer. You can find the library ID # in your account settings "
         "(Account Settings -> Qualtrics IDs -> Libraries Table -> Row 1, the one starting with UR_)."
@@ -523,7 +523,7 @@ def _load_qualtrics_tools():
 
     st.markdown("#### Create Surveys")
     st.markdown("Use this tool to create surveys by setting JSON text or uploading QSF file.")
-    create_section = st.beta_expander("Create Surveys")
+    create_section = st.expander("Create Surveys")
     create_section.markdown(
         "You can create a survey either by specifying the template in a "
         "JSON format or by uploading the template file (.QSF). "
@@ -547,7 +547,7 @@ def _load_qualtrics_tools():
 
     st.markdown("#### Export Survey Responses")
     st.markdown("Use this tool to export survey responses for further processing.")
-    export_section = st.beta_expander("Export Survey Responses")
+    export_section = st.expander("Export Survey Responses")
     survey_id = export_section.text_input("Survey ID #")
     file_formats = ["csv", "tsv", "spss"]
     file_format = export_section.selectbox("File Format", file_formats)
@@ -566,7 +566,7 @@ def _load_qualtrics_tools():
 
     st.markdown("#### Delete Images")
     st.markdown("Use this tool to delete images from your Qualtrics Graphics Library.")
-    delete_section = st.beta_expander("Delete Images")
+    delete_section = st.expander("Delete Images")
     delete_section.markdown("You can specify a list of either URLs or image ids.")
     delete_library_id = delete_section.text_input("Library ID #", key="for_deletion")
     delete_image_ids = delete_section.text_area("Image IDs")
@@ -582,7 +582,7 @@ def _load_qualtrics_tools():
 
     st.markdown("#### Delete Survey")
     st.markdown("Use this tool to delete surveys from your Qualtrics Library.")
-    delete_survey_section = st.beta_expander("Delete Survey")
+    delete_survey_section = st.expander("Delete Survey")
     delete_survey_section.markdown("You can specify the survey id for deletion.")
     delete_survey_id = delete_survey_section.text_input("Survey ID")
     delete_confirm_text = st.text_input("Please enter Delete Survey to confirm your deletion.")
@@ -661,7 +661,7 @@ def _load_scorer():
     selected_algorithm_index = algorithms.index(st.selectbox("Choose Algorithm", algorithms, 1))
     calculation_params = dict()
     if selected_algorithm_index == 0:
-        rt_cols = st.beta_columns(2)
+        rt_cols = st.columns(2)
         calculation_params['rt_low_cutoff'] = rt_cols[0].number_input(
             "Reaction Time (ms) Low Cutoff",
             value=300.0
@@ -709,7 +709,7 @@ def _load_scorer():
             value=10000.0
         )
         st.write(f"Eliminate trials with latencies > {calculation_params['rt_high_cutoff']} ms")
-        rt_cols = st.beta_columns(2)
+        rt_cols = st.columns(2)
         calculation_params['rt_low_cutoff'] = rt_cols[0].number_input(
             "Reaction Time (ms) Low Cutoff",
             value=300.0
@@ -723,7 +723,7 @@ def _load_scorer():
         st.write(f"Eliminate subjects for who more than {calculation_params['allowed_fast_rate']:%} of the "
                  f"trials have less than {calculation_params['rt_low_cutoff']} ms")
 
-        use_trials_cols = st.beta_columns(2)
+        use_trials_cols = st.columns(2)
         calculation_params['use_all_trials'] = use_trials_cols[0].checkbox("Use all trials", True)
         if calculation_params['use_all_trials']:
             st.write("Use all trials after the first two steps")
