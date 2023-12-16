@@ -86,6 +86,7 @@ def _load_generator():
         )
 
     st.header("IAT Qualtrics Survey Generator")
+    st.subheader("Updated: Dec 16, 2023")
     st.subheader("")
     st.subheader("Target Concepts")
     shared_stimuli_instruction = "(words or URLs to images), separated by commas. Enclose each word or URL with " \
