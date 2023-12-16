@@ -348,8 +348,12 @@ Error Trial Penalty (ms or SD unit): {self.rt_punishment}"""
                 lambda x: x if self.rt_low_cutoff <= x <= self.rt_high_cutoff else np.nan
             )
         used_data['rt_logged'] = np.log10(used_data['rt_recoded'])
-        
-        rt_mean_df = used_data.select_dtypes(include='number').groupby([*grouped_by, 'task'], as_index=False).mean()
+
+        numeric_columns = used_data.select_dtypes(include='number')
+        string_columns = used_data[[*grouped_by, 'task']]
+        selected_columns = pd.concat([numeric_columns, string_columns], axis=1)
+
+        rt_mean_df = selected_columns.groupby([*grouped_by, 'task'], as_index=False).mean()
         calculated_iat = rt_mean_df.pivot(
             index=grouped_by,
             columns='task',
