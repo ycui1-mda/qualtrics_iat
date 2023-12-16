@@ -4,17 +4,21 @@ import streamlit as st
 import qualtrics_tools
 import iat_scorer
 import script_generator
-import web_utils
+
 
 IATTask = script_generator.IATTask
-SessionState = web_utils.SessionState
 sidebar = st.sidebar
-session_state = SessionState.get(
-    templates=IATTask.templates(),
-    working_task=None,
-    iat_data=None,
-    tool=qualtrics_tools.QualtricsTool()
-)
+
+session_state = st.session_state
+if "templates" not in session_state:
+    session_state.templates = IATTask.templates()
+if "working_task" not in session_state:
+    session_state.working_task = None
+if "iat_data" not in session_state:
+    session_state.iat_data = None
+if "tool" not in session_state:
+    session_state.tool = qualtrics_tools.QualtricsTool()
+
 tool = session_state.tool
 
 
@@ -86,7 +90,6 @@ def _load_generator():
         )
 
     st.header("IAT Qualtrics Survey Generator")
-    st.subheader("Updated: Dec 16, 2023")
     st.subheader("")
     st.subheader("Target Concepts")
     shared_stimuli_instruction = "(words or URLs to images), separated by commas. Enclose each word or URL with " \
@@ -484,7 +487,7 @@ def _load_qualtrics_tools():
     tool.api_token = sidebar.text_input("API Token", "")
     tool.data_center = sidebar.text_input("Data Center", "")
     tool.brand_center = sidebar.text_input("Brand Center", "")
-    
+
     sidebar.markdown(
         "Your institute's designated Qualtrics website. For instance, MD Anderson Cancer Center uses "
         "'mdanderson.co1.qualtrics.com', in which case, you enter: mdanderson.co1 in the text field."
