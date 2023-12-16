@@ -823,5 +823,7 @@ def _load_sidebar():
 
 
 if __name__ == "__main__":
+    st.title("Qualtrics IAT Tools")
+    st.write("Update Date: Dec 16, 2023")
     _set_width(1200)
     _load_sidebar()
