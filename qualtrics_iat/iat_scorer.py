@@ -349,7 +349,7 @@ Error Trial Penalty (ms or SD unit): {self.rt_punishment}"""
             )
         used_data['rt_logged'] = np.log10(used_data['rt_recoded'])
         
-        rt_mean_df = used_data.groupby([*grouped_by, 'task'], as_index=False).mean()
+        rt_mean_df = used_data.groupby([*grouped_by, 'task'], as_index=False).select_dtypes(include='number').mean()
         calculated_iat = rt_mean_df.pivot(
             index=grouped_by,
             columns='task',
