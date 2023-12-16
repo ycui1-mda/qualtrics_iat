@@ -295,6 +295,7 @@ Error Trial Penalty (ms or SD unit): {self.rt_punishment}"""
         trial_data = self.iat_data.iat_data_clean
         summary_df, scored_iat_df = self._process_data_conventional(trial_data)
         summary_df["reliability_by_odd_even"] = self._calculate_reliability(trial_data)
+        summary_df["reliability_by_odd_even"] = pd.to_numeric(summary_df["reliability_by_odd_even"], errors='coerce')
         return self._clean_up_scored_data(summary_df, scored_iat_df)
     
     def _process_data_shared(self, trial_data):
